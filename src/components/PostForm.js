@@ -57,7 +57,7 @@ function PostForm() {
 
         // console.log(formData)
         const response = await axios.post(
-            'http://api.cloudinary.com/v1_1/dwsf70imh/image/upload', formData
+            'https://api.cloudinary.com/v1_1/dwsf70imh/image/upload', formData
         )
         // console.log(response.data.secure_url)
         values.image = response.data.secure_url

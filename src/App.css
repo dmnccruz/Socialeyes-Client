@@ -1,0 +1,1056 @@
+p, h1, h2, h3, h4, h5, h6, a, button, ::placeholder, .content, .header { 
+    font-family: 'Poppins' !important;
+}
+
+.page-title {
+    display: block !important;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.form-container {
+    width: 400px;
+    margin: auto;
+}
+
+.ui.red.button:focus, .ui.red.buttons .button:focus {
+    background-color: #db2828;
+}
+
+.card {
+    /* min-height: 700px !important; */
+    max-height: 850px !important;
+    min-width: 500px !important;
+    max-width: 500px !important;
+    background: rgb(238, 238, 238) !important;
+    font-family: "Font Awesome 5 Free" !important;
+}
+
+.cardpic {
+    max-height: 500px !important;
+    min-height: 500px !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+.carddes {
+    word-wrap: break-word;
+    border-top: 1px solid rgb(201, 201, 201);
+}
+
+.cardCommentsWrapper {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.cardCommentInput {
+    max-width: 465px !important;
+    min-width: 465px !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+
+.cardComments {
+    max-width: 465px !important;
+    min-width: 465px !important;
+    background: rgba(0, 0, 0, 0.048) !important;
+}
+
+.deleteButton {
+    background: rgba(202, 202, 202, 0.315) !important;
+    transition: .15s ease-in-out !important;
+}
+
+.deleteButton:hover {
+    background: rgb(214, 50, 50) !important;
+}
+
+#previewImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    height: 500px;
+    width: 500px;
+    border: 1px solid rgba(0, 0, 0, 0.089);
+    border-bottom: none;
+    border-top: none;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(155, 155, 155, 0.712);
+    backdrop-filter: blur(1px);
+}
+
+#previewImageInput {
+    height: 100% !important;
+    width: 100% !important;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#previewImageCamera {
+    position: absolute;
+    font-size: 25px !important;
+    color: rgb(92, 92, 92);
+    transition: .15s ease-in-out;
+    font-family: "Font Awesome 5 Free" !important;
+}
+
+#previewImage:hover #previewImageCamera{
+    transform: rotate(15deg);
+    color: rgb(37, 37, 37);
+}
+
+#bodyInputField {
+    border: 1px solid rgba(0, 0, 0, 0.089);
+    border-radius: 0px 0px 5px 5px;
+    height: 75px;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: row;
+    background: rgb(192, 192, 192);
+}
+
+#bodyInputField2 {
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 5px 0px 0px 5px !important;
+    margin: 0px !important;
+    margin-top: 14px !important;
+    width: 350px !important;
+    height: 40px;
+}
+
+#bodyInputButton {
+    border-radius: 0px 5px 5px 0px !important;
+    height: 40px;
+}
+
+#createPostHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border: 1px solid rgba(0, 0, 0, 0.089);
+    height: 40px;
+    background: rgba(0, 0, 0, 0.116);
+    width: 500px;
+    cursor: pointer;
+    transition: .15s ease-in-out;
+    box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.048);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#createPostHeader i {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#createPostHeader h3 {
+    margin: 0px;
+}
+
+#createPostHeader:hover {
+    transform: scale(1.025);
+    box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.048);
+    color: rgba(65, 65, 65, 0.815);
+}
+
+.createPostBorderTop {
+    border-radius: 5px 5px 0px 0px;
+    color: rgba(65, 65, 65, 0.815);
+}
+
+.createPostBorderAll {
+    border-radius: 5px 5px 5px 5px;
+    color: rgba(65, 65, 65, 0.479);
+}
+
+.socialeyesTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 100px;
+    margin: 0px;
+    /* position: absolute; */
+    color: rgb(22, 22, 22);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.158);
+    top: 5px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-family: 'Galada', cursive !important; 
+    font-weight: 100;
+}
+
+.loginContainer {
+    width: 100%;
+    display: flex !important;
+    justify-content: flex-start;
+    align-items: center;
+    height: 75vh !important;
+    flex-direction: column;
+    padding-top: 200px;
+}
+
+.loginContainer2 {
+    height: 400px;
+    width: 300px; 
+    padding: 25px 25px 25px 25px;
+    border: 1px solid rgb(185, 185, 185);
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 7.5px;
+    background: rgb(250, 250, 250);
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.034);
+}
+
+.loginContainer2 input {
+    width: 225px !important;
+} 
+
+.loginWord {
+    margin-bottom: 40px !important;
+}
+
+.registgerContainer2 {
+    height: 1000px;
+    width: 350px; 
+    padding: 25px 25px 25px 25px;
+    border: 1px solid rgb(185, 185, 185);
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 7.5px;
+    background: rgb(250, 250, 250);
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.034);
+}
+
+.registgerContainer2 input {
+    width: 275px !important;
+} 
+
+.signButton {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#loginRegister {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 275px;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#loginRegister div {
+    width: 132.5px !important;
+    margin-bottom: 0px;
+}
+
+.profilePic {
+    border: 1px solid rgb(190, 190, 190);
+    height: 200px;
+    width: 200px;
+    margin-left: 35px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.034);
+}
+
+#previewImageCameraRegister {
+    position: absolute;
+    font-size: 25px !important;
+    color: rgb(92, 92, 92);
+    transition: .15s ease-in-out;
+    font-family: "Font Awesome 5 Free" !important;
+    margin-bottom: 25px;
+}
+
+.profilePic:hover #previewImageCamera{
+    transform: rotate(15deg);
+    color: rgb(37, 37, 37);
+}
+
+.profilePic p {
+   margin-bottom: 25px !important;
+}
+
+.profilePicMenu {
+    border-radius: 50%;
+    background-position: center !important;
+    background-size: cover !important;
+    margin-right: -10px !important;
+    height: 50px !important;
+    width: 50px !important;
+    margin-bottom: 5px !important;
+    border: 1px solid rgb(158, 158, 158);
+}
+
+.profilePicPost {
+    float: left !important;
+    border-radius: 50%;
+    background-position: center !important;
+    background-size: cover !important;
+    margin-right: 7.5px;
+    height: 40px !important;
+    width: 40px !important;
+    border: 1px solid rgb(158, 158, 158);
+    margin-top: -3px !important;
+}
+
+.loginBackground {
+    position: absolute !important;
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid red; */
+    z-index: -10;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow-y: hidden;
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+
+.loginBackground img {
+    height: 95%;
+    position: absolute;
+}
+
+.imageSpeechBubble {
+    position: relative;
+    animation: imageRise .5s ease-in-out forwards .5s;
+    bottom: -100%;
+}
+
+@keyframes imageRise {
+    to {
+        bottom: 0%;
+    }
+}
+
+.image110 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 1s;
+    bottom: 100%;
+}
+
+.image109 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 1.5s;
+    bottom: 100%;
+}
+
+.image108 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 2s;
+    bottom: 100%;
+}
+
+.image107 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 2.5s;
+    bottom: 100%;
+}
+
+.image106 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 3s;
+    bottom: 100%;
+}
+
+.image105 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 3.5s;
+    bottom: 100%;
+}
+
+.image104 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 4s;
+    bottom: 100%;
+}
+
+.image103 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 4.5s;
+    bottom: 100%;
+}
+
+.image102 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 4.75s;
+    bottom: 100%;
+}
+
+.image101 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 5s;
+    bottom: 100%;
+}
+
+.image100 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 5.25s;
+    bottom: 100%;
+}
+
+.image99 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 5.5s;
+    bottom: 100%;
+}
+
+.image98 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 5.75s;
+    bottom: 100%;
+}
+
+.image97 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 6s;
+    bottom: 100%;
+}
+
+.image96 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 6.25s;
+    bottom: 100%;
+}
+
+.image95 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 6.5s;
+    bottom: 100%;
+}
+
+.image94 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 6.75s;
+    bottom: 100%;
+}
+
+.image93 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 7s;
+    bottom: 100%;
+}
+
+.image92 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 7.25s;
+    bottom: 100%;
+}
+
+.image91 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 7.5s;
+    bottom: 100%;
+}
+
+.image90 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 7.75s;
+    bottom: 100%;
+}
+
+.image89 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 8s;
+    bottom: 100%;
+}
+
+.image88 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 8.25s;
+    bottom: 100%;
+}
+
+.image87 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 8.5s;
+    bottom: 100%;
+}
+
+.image86 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 8.75s;
+    bottom: 100%;
+}
+
+.image85 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 9s;
+    bottom: 100%;
+}
+
+.image84 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 9.1s;
+    bottom: 100%;
+}
+
+.image83 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 9.2s;
+    bottom: 100%;
+}
+
+.image82 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 9.3s;
+    bottom: 100%;
+}
+
+.image81 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 9.4s;
+    bottom: 100%;
+}
+
+.image80 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 9.5s;
+    bottom: 100%;
+}
+
+.image79 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 9.6s;
+    bottom: 100%;
+}
+
+.image78 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 9.7s;
+    bottom: 100%;
+}
+
+.image77 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 9.8s;
+    bottom: 100%;
+}
+
+.image76 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 9.9s;
+    bottom: 100%;
+}
+
+.image75 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 10s;
+    bottom: 100%;
+}
+
+.image74 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 10.1s;
+    bottom: 100%;
+}
+
+.image73 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 10.2s;
+    bottom: 100%;
+}
+
+.image72 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 10.3s;
+    bottom: 100%;
+}
+
+.image71 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 10.4s;
+    bottom: 100%;
+}
+
+.image70 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 10.5s;
+    bottom: 100%;
+}
+
+.image69 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 10.6s;
+    bottom: 100%;
+}
+
+.image68 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 10.7s;
+    bottom: 100%;
+}
+
+.image67 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 10.8s;
+    bottom: 100%;
+}
+
+.image66 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 10.9s;
+    bottom: 100%;
+}
+
+.image65 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 11s;
+    bottom: 100%;
+}
+
+.image64 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 11.1s;
+    bottom: 100%;
+}
+
+.image63 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 11.2s;
+    bottom: 100%;
+}
+
+.image62 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 11.3s;
+    bottom: 100%;
+}
+
+.image61 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 11.4s;
+    bottom: 100%;
+}
+
+.image60 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 11.5s;
+    bottom: 100%;
+}
+
+.image59 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 11.6s;
+    bottom: 100%;
+}
+
+.image58 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 11.7s;
+    bottom: 100%;
+}
+
+.image57 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 11.8s;
+    bottom: 100%;
+}
+
+.image56 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 11.9s;
+    bottom: 100%;
+}
+
+.image55 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 12s;
+    bottom: 100%;
+}
+
+.image54 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 12.1s;
+    bottom: 100%;
+}
+
+.image53 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 12.2s;
+    bottom: 100%;
+}
+
+.image52 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 12.3s;
+    bottom: 100%;
+}
+
+.image51 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 12.4s;
+    bottom: 100%;
+}
+
+.image50 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 12.5s;
+    bottom: 100%;
+}
+
+.image49 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 12.6s;
+    bottom: 100%;
+}
+
+.image48 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 12.7s;
+    bottom: 100%;
+}
+
+.image47 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 12.8s;
+    bottom: 100%;
+}
+
+.image46 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 12.9s;
+    bottom: 100%;
+}
+
+.image45 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 13s;
+    bottom: 100%;
+}
+
+.image44 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 13.05s;
+    bottom: 100%;
+}
+
+.image43 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 13.1s;
+    bottom: 100%;
+}
+
+.image42 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 13.15s;
+    bottom: 100%;
+}
+
+.image41 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 13.2s;
+    bottom: 100%;
+}
+
+.image40 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 13.25s;
+    bottom: 100%;
+}
+
+.image39 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 13.3s;
+    bottom: 100%;
+}
+
+.image38 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 13.35s;
+    bottom: 100%;
+}
+
+.image37 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 13.4s;
+    bottom: 100%;
+}
+
+.image36 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 13.45s;
+    bottom: 100%;
+}
+
+.image35 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 13.5s;
+    bottom: 100%;
+}
+
+.image34 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 13.55s;
+    bottom: 100%;
+}
+
+.image33 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 13.6s;
+    bottom: 100%;
+}
+
+.image32 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 13.65s;
+    bottom: 100%;
+}
+
+.image31 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 13.7s;
+    bottom: 100%;
+}
+
+.image30 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 13.75s;
+    bottom: 100%;
+}
+
+.image29 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 13.8s;
+    bottom: 100%;
+}
+
+.image28 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 13.85s;
+    bottom: 100%;
+}
+
+.image27 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 13.9s;
+    bottom: 100%;
+}
+
+.image26 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 13.95s;
+    bottom: 100%;
+}
+
+.image25 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 14s;
+    bottom: 100%;
+}
+
+.image24 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 14.025s;
+    bottom: 100%;
+}
+
+.image23 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 14.05s;
+    bottom: 100%;
+}
+
+.image22 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 14.075s;
+    bottom: 100%;
+}
+
+.image21 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 14.1s;
+    bottom: 100%;
+}
+
+.image20 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 14.125s;
+    bottom: 100%;
+}
+
+.image19 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 14.15s;
+    bottom: 100%;
+}
+
+.image18 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 14.175s;
+    bottom: 100%;
+}
+
+.image17 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 14.2s;
+    bottom: 100%;
+}
+
+.image16 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 14.225s;
+    bottom: 100%;
+}
+
+.image15 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 14.25s;
+    bottom: 100%;
+}
+
+.image14 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 14.275s;
+    bottom: 100%;
+}
+
+.image13 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 14.3s;
+    bottom: 100%;
+}
+
+.image12 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 14.325s;
+    bottom: 100%;
+}
+
+.image11 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 14.35s;
+    bottom: 100%;
+}
+
+.image10 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 14.375s;
+    bottom: 100%;
+}
+
+.image9 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 14.4s;
+    bottom: 100%;
+}
+
+.image8 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 14.425s;
+    bottom: 100%;
+}
+
+.image7 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 14.45s;
+    bottom: 100%;
+}
+
+.image6 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 14.475s;
+    bottom: 100%;
+}
+
+.image5 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 14.5s;
+    bottom: 100%;
+}
+
+.image4 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 14.525s;
+    bottom: 100%;
+}
+
+.image3 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 14.55s;
+    bottom: 100%;
+}
+
+.image2 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 14.575s;
+    bottom: 100%;
+}
+
+.image1 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 14.6s;
+    bottom: 100%;
+}
+
+.image0 {
+    position: relative;
+    animation: imageFall .9s ease-in-out forwards 14.625s;
+    bottom: 100%;
+}
+
+@keyframes imageFall {
+    to {
+        bottom: 0%;
+    }
+}
+
+#navBar {
+    margin: 0 auto;
+    width: 97.5% !important;
+}
+
+.homeBackground {
+    position: fixed !important;
+    height: 95vh;
+    width: 100%;
+    /* border: 1px solid red; */
+    z-index: -10;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    overflow-y: hidden;
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+
+.homeBackground img {
+    height: 70%;
+    position: absolute;
+    opacity: .75;
+}
+
+.image1b, .image2b, .image3b, .image4b, .image5b {
+    position: relative;
+    animation: imageFall .9s ease-in-out infinite alternate;
+    bottom: 2.5%;
+}
+
+@keyframes imageFall {
+    to {
+        bottom: 0%;
+    }
+}
+

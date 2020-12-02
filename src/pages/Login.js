@@ -23,7 +23,7 @@ function Login(props) {
         password: ""
     })
 
-    console.log(imagesArr[1])
+    // console.log(imagesArr[1])
 
     useEffect(()=> {
         if(imagesArr[1] === '/static/media/2.4c1519c0.svg') {

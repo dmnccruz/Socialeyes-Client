@@ -26,7 +26,7 @@ function Login(props) {
     console.log(imagesArr[1])
 
     useEffect(()=> {
-        if(imagesArr[1] === '/static/media/2.8be5a5a0.svg') {
+        if(imagesArr[1] === '/static/media/2.4c1519c0.svg') {
             setIarr(imagesArr.reverse())
         }
         else {

@@ -72,10 +72,12 @@ function LikeButton({ user, post: {id, likeCount, likes }}) {
                 </Label>
             </Button>   
         }>
-            {
-                nameArray.map(name => {
-                    return <p key={Math.random()} style={{fontSize: '15px', lineHeight: '7.5px'}}>{name}</p>
-                })
+            {likeCount > 0 ? 
+            nameArray.map(name => {
+                return <p key={Math.random()} style={{fontSize: '15px', lineHeight: '7.5px'}}>{name}</p>
+            })
+            :
+            <p style={{fontSize: '15px', lineHeight: '7.5px'}}>No likes yet</p>
             }
         </Popup>
     )

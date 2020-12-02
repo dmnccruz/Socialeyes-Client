@@ -1,7 +1,7 @@
 import React, { useContext, useState, useRef } from 'react';
 import gql from 'graphql-tag';
 import { useQuery, useMutation } from '@apollo/react-hooks';
-import { Card, Grid, Image, Icon, Label, Button, Form } from 'semantic-ui-react';
+import { Card, Grid, Form } from 'semantic-ui-react';
 import moment from 'moment';
 // import LikeButton from '../components/LikeButton';
 import DeleteButton from '../components/DeleteButton';

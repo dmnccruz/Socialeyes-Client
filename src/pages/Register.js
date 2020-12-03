@@ -21,7 +21,7 @@ function Register(props) {
         confirmPassword: ""
     })
 
-    const [previewSource, setPreviewSource] = useState('https://res.cloudinary.com/dwsf70imh/image/upload/v1606820063/l5fjp4xz6gif50nhval7.jpg');
+    const [previewSource, setPreviewSource] = useState('https://res.cloudinary.com/dwsf70imh/image/upload/v1606820095/xv7brywwfn1p6lsq4pqf.jpg');
 
     const [addUser, { loading }] = useMutation(REGISTER_USER, {
         update(_, { data: {register: userData} }){
